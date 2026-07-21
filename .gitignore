@@ -1,1 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
 
+# Virtual Environment
+.venv/
+venv/
+env/
+
+
+
+
+
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Local Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated Files
+exports/
+output/
+tmp/
+temp/
+
+# User Assets
+user_assets/
+uploaded_designs/
+
+# Generated Mockups
+generated_mockups/
+
+# Cache
+.cache/
+cache/
+
+# Local Configuration
+config/local/
+
+# Secrets
+secrets/
+*.pem
+*.key
